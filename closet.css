@@ -1,0 +1,77 @@
+/*
+    Closet app
+    Custom CSS File
+*/ 
+
+
+
+
+
+
+.items {
+ 
+  padding:5px;
+  list-style: none;
+ 
+}
+
+h1 {
+
+    text-align: center;    
+}
+
+
+button{
+    text-align: center;
+    margin-right: 250px;
+}
+
+.item {
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+  border: 15px groove #ccc;
+  border-radius: 25px;
+  color: #fff;
+  background: #008000;
+  width: 75%;
+  font-weight: bold;
+  text-align: center; 
+ 
+  
+}
+
+
+.closet .title {
+ 
+  background: #BB0000;
+  font-weight: bold;
+  text-align: center; 
+  color: #fff;
+ 
+}
+
+.closet .dndPlaceholder {
+    background: #BB0000;
+    width:225px;
+   
+    padding: 40px;
+}
+
+
+
+ul[dnd-list], ul[dnd-list] > li {
+    width: 100%;
+    border: 2px solid #bb0000;
+    border-radius: 10px;
+}
+
+ul[dnd-list] {
+  min-height: 150px;
+  border: 1px solid #ccc;
+  list-style: none;
+  padding: 0px;
+  margin: 30px;
+  
+
+}
